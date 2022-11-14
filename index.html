@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="de">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="robots" content="NOINDEX,NOFOLLOW">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    
+    <title>Techstarter_ToDoApp_LukasNachtigall</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.3/font/bootstrap-icons.css">
+    <link styles
+    link rel="stylesheet" href="style.css">
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script type="text/javascript" src="script.js"></script>
+    <link rel="shortcut icon" href="data:image/x-icon;," type="image/x-icon">
+    <head>
+</head>
+
+<body>
+
+    <div class="container pt-5">
+        <div class="row">
+            <div class="col-12 col-md-8 offset-md-2">
+            <h2>Techstarter ToDo! </h2>
+      </div>
+    </div>
+    
+    <div class="row">
+        <div class="col-12 col-md-8 offset-md-2">
+            <div class="card rounded-0">
+                <div class="card-body">
+                  <div class="row">
+                    <div class="col">
+                        <h4>Techstarter_ToDoApp_Author:LukasNachtigall</h4>
+                    </div>
+                  </div>
+                  <div class="row">
+                </div>
+                <div class="row">
+                    <div class="col">
+                        <div class="input-group mb-3">
+                            <span class="input-group-text rounded-0" id="inputGroup-sizing-default">Neue Todo:</span>
+                            <input type="text" class="form-control rounded-0" placeholder="Was muss noch gemacht werden ?" id="txtTodo" >
+                            <button type="button" onclick="addItemToList()" class="btn btn-primary rounded-0">Eintrag hinzufügen</button>
+                          </div>
+                </div>
+                </div>
+                <div class="row pt-3">
+                    <div class="col">
+                        <h4>Aktuelle Todos</h4>
+                    </div>
+                  </div>
+                  <div class="row">
+                    <div class="col">
+                        <ul class="list-group list-group-flush" id="lstTodo">
+                            <li class="list-group-item rounded-0" id="todoItem_1">
+                              <input class="form-check-input me-1" type="checkbox" value="" aria-label="...">
+                              Projekt erstellen <i class="bi bi-x-square force-pull-right"></i>
+                            </li>
+                            <li class="list-group-item rounded-0 text-muted" id="todoItem_2">
+                              <input class="form-check-input me-1" type="checkbox" value="" aria-label="...">
+                              Dokumentation erstellen<i class="bi bi-x-square force-pull-right"></i>
+                            </li>
+                            <li class="list-group-item rounded-0" id="todoItem_3">
+                              <input class="form-check-input me-1" type="checkbox" value="" aria-label="...">
+                              Frontend Programmieren<i class="bi bi-x-square force-pull-right"></i>
+                            </li>
+                            <li class="list-group-item rounded-0" id="todoItem_4">
+                              <input class="form-check-input me-1" type="checkbox" value="" aria-label="...">
+                              API Programmieren<i class="bi bi-x-square force-pull-right"></i>
+                            </li>
+                            <li class="list-group-item rounded-0 text-muted" id="todoItem_5">
+                              <input class="form-check-input me-1" type="checkbox" value="" aria-label="...">
+                              Fertig stellen<i class="bi bi-x-square force-pull-right"></i>
+                            </li>
+                          </ul>
+                    </div>
+                  </div>
+                </div>
+            </div>
+        </div>
+    </div> 
+        <br>
+        <div class="row">
+            <div class="col-12 col-md-8 offset-md-2"><small class="text-muted">&copy; Lukas Nachtigall</small></div>
+        </div>
+    </div>
+
+
+</body>
+
+</html>
